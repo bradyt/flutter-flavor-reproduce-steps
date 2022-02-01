@@ -14,4 +14,5 @@ Steps:
 4. Rename scheme "Runner" to "Free", duplicate as "Paid", check "Shared"
 5. View > Navigators > Project > PROJECT > Runner > Info > Configurations
 6. Copy Debug, Release, Profile, and add " Paid" or " Free"
-
+7. Product > Scheme > Manage Schemes > {Paid,Free} > Edit
+8. Ensure {Paid,Free} schemes point to "{Debug,Profile,Release} {Paid,Free}" configurations
