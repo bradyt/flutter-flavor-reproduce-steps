@@ -2,7 +2,7 @@
 This project tries to document how to recreate the flavors app at the
 following location:
 
-- https://github.com/flutter/flutter/commits/master/dev/integration_tests/flavors
+- https://github.com/flutter/flutter/tree/master/dev/integration_tests/flavors
 
 The focus is on iOS.
 
@@ -38,3 +38,15 @@ explain what happens then.
 8. Go to Build Settings for Paid App, and set info to Runner/Info-Paid.plist
 9. Add .free and .paid to bundle ids in Build Settings of each Target
 10. Go to Manage Schemes and edit Paid App, make sure it points to "Paid App.app" where appropriate
+11. Change shemes to lowercase
+
+Below are links that might summarize what the above was trying to
+accomplish. We didn't address the last one as it seemed to have less
+to do with Xcode, and there seemed to be diminishing returns in
+pursuing reproduction of the entire flavors app history.
+
+- https://github.com/flutter/flutter/commits/master/dev/integration_tests/flavors/ios
+  - https://github.com/flutter/flutter/commit/9496e6dfa715002ba3ca44a5ee2b0c4df007deca
+  - https://github.com/flutter/flutter/commit/9c87b32477fddd43ce0012dcb7d46679f69b1953
+  - https://github.com/flutter/flutter/commit/e110ca7209579afaf2d579306cca7f7ba5102ec7
+  - https://github.com/flutter/flutter/commit/aff69e43efd64d8bf8fa073303b74a7220deb509
