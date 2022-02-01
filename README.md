@@ -1,16 +1,15 @@
-# flavors
 
-A new Flutter project.
+This project tries to document how to recreate the flavors app at the
+following location:
 
-## Getting Started
+- https://github.com/flutter/flutter/commits/master/dev/integration_tests/flavors
 
-This project is a starting point for a Flutter application.
+The focus is on iOS.
 
-A few resources to get you started if this is your first Flutter project:
+Steps:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. flutter create . --project-name flavors -i objc -a android
+2. open ios/Runner.xcworkspace
+3. Product > Scheme > Manage Schemes
+4. Rename scheme "Runner" to "Free", duplicate as "Paid", check "Shared"
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
