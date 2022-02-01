@@ -18,3 +18,5 @@ Steps:
 8. Ensure {Paid,Free} schemes point to "{Debug,Profile,Release} {Paid,Free}" configurations
 9. View > Navigators > Project > Runner/Runner/Info
 10. Add a key value pair, "Flavor", "$(PRODUCT_FLAVOR)"
+11. View > Navigators > Project > PROJECT > Runner > Build Settings
+12. Add User-Defined Settings > PRODUCT_FLAVOR > {free/paid}
