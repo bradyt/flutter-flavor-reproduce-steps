@@ -20,3 +20,4 @@ Steps:
 10. Add a key value pair, "Flavor", "$(PRODUCT_FLAVOR)"
 11. View > Navigators > Project > PROJECT > Runner > Build Settings
 12. Add User-Defined Settings > PRODUCT_FLAVOR > {free/paid}
+13. Add method channel to ios/Runner/AppDelegate.m
