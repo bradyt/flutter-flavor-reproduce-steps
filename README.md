@@ -16,3 +16,5 @@ Steps:
 6. Copy Debug, Release, Profile, and add " Paid" or " Free"
 7. Product > Scheme > Manage Schemes > {Paid,Free} > Edit
 8. Ensure {Paid,Free} schemes point to "{Debug,Profile,Release} {Paid,Free}" configurations
+9. View > Navigators > Project > Runner/Runner/Info
+10. Add a key value pair, "Flavor", "$(PRODUCT_FLAVOR)"

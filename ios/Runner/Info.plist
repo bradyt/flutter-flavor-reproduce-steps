@@ -43,5 +43,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>Flavor</key>
+	<string>$(PRODUCT_FLAVOR)</string>
 </dict>
 </plist>
