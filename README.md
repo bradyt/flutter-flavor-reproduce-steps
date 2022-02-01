@@ -30,3 +30,11 @@ explain what happens then.
 
 1. View > Navigators > Project > Runner/Runner/Info
 2. Remove Bundle Display Name and set Bundle Name to PRODUCT_NAME
+3. Duplicate Target Runner as "Runner Copy"
+4. Drag "Runner copy-Info" to be adjacent to Info
+5. Rename Info as Info-Free and "Runner copy-Info" as Info-Paid
+6. Rename Target Runner as Free App and "Runner copy" as Paid App
+7. Go to Build Settings for Free App, and set info to Runner/Info-Free.plist
+8. Go to Build Settings for Paid App, and set info to Runner/Info-Paid.plist
+9. Add .free and .paid to bundle ids in Build Settings of each Target
+10. Go to Manage Schemes and edit Paid App, make sure it points to "Paid App.app" where appropriate
