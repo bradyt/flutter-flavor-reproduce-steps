@@ -21,3 +21,9 @@ Steps:
 11. View > Navigators > Project > PROJECT > Runner > Build Settings
 12. Add User-Defined Settings > PRODUCT_FLAVOR > {free/paid}
 13. Add method channel to ios/Runner/AppDelegate.m
+
+The above summarizes the state of that integration test as mravn
+committed in August of 2017.
+
+And this was roughly the state before May 11th, 2020. The next steps
+explain what happens then.
