@@ -27,3 +27,6 @@ committed in August of 2017.
 
 And this was roughly the state before May 11th, 2020. The next steps
 explain what happens then.
+
+1. View > Navigators > Project > Runner/Runner/Info
+2. Remove Bundle Display Name and set Bundle Name to PRODUCT_NAME
