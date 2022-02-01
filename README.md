@@ -8,7 +8,7 @@ The focus is on iOS.
 
 Steps:
 
-1. flutter create . --project-name flavors -i objc -a android
+1. flutter create . --project-name flavors -i objc -a java
 2. open ios/Runner.xcworkspace
 3. Product > Scheme > Manage Schemes
 4. Rename scheme "Runner" to "Free", duplicate as "Paid", check "Shared"
